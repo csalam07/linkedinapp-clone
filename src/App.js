@@ -26,7 +26,7 @@ function App() {
              dispatch(logout());
        }
      });
- }, []);
+ }, [dispatch]);
 
   return (
     <div className="app">
